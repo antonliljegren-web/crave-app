@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/nearby.js": { "memory": 128, "maxDuration": 10 },
+    "api/photo.js":  { "memory": 128, "maxDuration": 10 },
+    "api/group.js":  { "memory": 256, "maxDuration": 10 }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
